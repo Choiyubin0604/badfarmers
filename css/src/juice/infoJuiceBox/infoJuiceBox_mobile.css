@@ -1,0 +1,35 @@
+@media screen and (max-width:480px) {
+
+
+.info_juiceBox{box-sizing: border-box; padding-top: 5rem; padding-bottom: 5rem;  position: relative;
+         width: 100%; height:auto; background-image:url('../../../../img/main/4-4_3.png');
+         background-repeat:repeat-y;
+         background-position:center center;
+         background-size:100% auto;  
+        }
+.info_juiceBox:before{content:" "; display: block;position: absolute;  top: -8vw; left: 0;
+        width: 100%; height: 8vw; z-index: 5000;
+         background-image: url('../../../../img/main/4-4_2.png');
+         background-repeat: no-repeat;
+         background-position: bottom center;
+         background-size: 100% auto }
+.info_juiceBox:after{content:" "; display: block; position: absolute; bottom: -8vw; left: 0;
+width: 100%; height: 8vw; z-index: 6000;
+         background-image: url('../../../../img/main/4-4.png');
+         background-repeat: no-repeat;
+         background-position: top center;
+         background-size: 100% auto }
+
+.info_text{width: 100%; height: auto;margin: auto;}
+.info_text>h2{margin: auto;  width: 250px; height: auto; margin-bottom: 3rem; text-align: center; font-size: 1.3rem; color:#555;}
+.info_text>h2>span{color: #23472f;  text-align: center; font-size: 1.5rem; font-weight: 800;}
+.info_text>p{width: auto; height: auto; text-align: center; font-size:0.9rem; color: #000; 
+            line-height: 1.2rem;}
+
+.info_text>.button{width: 130px; height: 35px; background-color: #23472f; color: #fff; line-height: 35px; text-align: center;border-radius: 10px; margin: auto; margin-top: 4rem;}
+
+.info_text>.button>a{display: block; width: 100%; height: 100%; color: inherit;  border-radius: 10px;}
+.info_text>.button>a:hover{color: #23472f; border: 1px solid #23472f; background-color: #fff; border-radius: 10px;
+                   transition: all 500ms linear;}
+
+}

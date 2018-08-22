@@ -1,0 +1,14 @@
+@media screen and (min-width:1366px) {
+
+	.processBox{margin:auto; box-sizing: border-box; padding-top: 5rem; padding-bottom: 10rem; 
+		width: 100%; height: auto; min-height: 500px; background-color: #dcdace;}
+	.process{margin:auto; width: 50%; height: auto;}
+	.process>h2{margin:auto; text-align: center; width: 100%; font-size: 1.5rem; color:#23472f;
+				font-weight: 800;}
+
+	.process_text{width: 100%; height: auto; margin: auto;}
+	.process_text>ul{margin-top: 3rem;  width: 100%; height: auto;}
+	.process_text li{width: 100%; height: 150px; margin-bottom: 2rem;
+		background-color: #fff;}
+
+}

@@ -1,0 +1,90 @@
+@media screen and (min-width:768px) and (max-width:1365px) {
+
+
+
+  .productBox{width: 100%; height: auto;  background-color: #f9f7f2; 
+              box-sizing: border-box; padding-top: 10rem; padding-bottom: 10rem;}
+
+  .product_wrap{width: 80%; height: 300px; margin: auto;  margin-bottom: 15rem;}
+
+  .pro_01{width: 60%; height: 100%; float: left;  
+          background-image: url('../../../../img/main/pro_juice.png');
+          background-size: contain;
+          background-position: center ;
+          background-repeat: no-repeat;
+
+          transform:translateX(-10rem);
+          transition:all 700ms linear;
+          opacity: 0;}
+  .pro_text_01{width: 35%; height: 100%; float: right;
+            transform:translateY(7rem);
+            transition:all 1000ms linear;
+            opacity: 0; }
+  .pro_text_01>dl{box-sizing: border-box; padding-top: 30px;
+               margin-bottom: 2rem; }
+  .pro_text_01 dt{width: 100%; height: auto; font-weight: 300; font-size: 1.5rem; text-align: center; }
+  .pro_text_01 dt>span{font-weight: 800; color:#23472f;}
+  .pro_text_01 dd{width: 100%; height: auto; font-weight: 300; font-size: 1.1rem; text-align: center; 
+                margin-top: 3rem;}
+  
+.pro_01.active,
+.pro_text_01.active{opacity: 1; transform:rotate(0) translate(0,0);}
+
+  .button{width: 150px; height: 40px; background-color: #23472f; color: #fff; line-height: 40px; text-align: center;border-radius: 10px; margin: auto; margin-top: 2rem;
+    animation:ani 700ms infinite ease alternate;}
+
+  @keyframes ani {
+  0%{transform: translateY(0);}
+  100%{transform: translateY(-0.5rem);}
+}
+  .button>a{display: block; width: 100%; height: 100%; color: inherit;  border-radius: 10px;}
+  .button>a:hover{color: #23472f; border: 1px solid #23472f; background-color: #fff; border-radius: 10px;
+                   transition: all 500ms linear;}
+
+  .pro_02{width: 60%; height: 100%; float: right;  
+          background-image: url('../../../../img/main/pro_salad.png');
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+
+          transform:translateX(10rem);
+          transition:all 700ms linear;
+          opacity: 0;}
+  .pro_text_02{width: 35%; height: 100%; float: left;
+            transform:translateY(7rem);
+            transition:all 1000ms linear;
+            opacity: 0;  }
+  .pro_text_02>dl{box-sizing: border-box; padding-top: 30px;
+               margin-bottom: 2rem; }
+  .pro_text_02 dt{width: 100%; height: auto; font-weight: 300; font-size: 1.5rem; text-align: center; }
+  .pro_text_02 dt>span{font-weight: 800; color:#23472f;}
+  .pro_text_02 dd{width: 100%; height: auto; font-weight: 300; font-size: 1.1rem; text-align: center; 
+                margin-top: 3rem;}
+
+.pro_02.active,
+.pro_text_02.active{opacity: 1; transform:rotate(0) translate(0,0);}
+
+
+  .pro_03{width: 50%; height: 100%; float: left; 
+          background-image: url('../../../../img/main/pro_nut.png');
+          background-size: contain;
+          background-position: center;
+          background-repeat: no-repeat;
+          transform:translateX(-10rem);
+          transition:all 700ms linear;
+          opacity: 0; }
+  .pro_text_03{width: 45%; height: 100%; float: right;
+              transform:translateY(7rem);
+              transition:all 1000ms linear;
+              opacity: 0;}
+  .pro_text_03>dl{box-sizing: border-box; padding-top: 30px;
+               margin-bottom: 2rem; }
+  .pro_text_03 dt{width: 100%; height: auto; font-weight: 300; font-size: 1.5rem; text-align: center; }
+  .pro_text_03 dt>span{font-weight: 800; color:#23472f;}
+  .pro_text_03 dd{width: 100%; height: auto; font-weight: 300; font-size: 1.1rem; text-align: center; 
+                margin-top: 3rem;}
+
+.pro_03.active,
+.pro_text_03.active{opacity: 1; transform:rotate(0) translate(0,0);}
+
+}

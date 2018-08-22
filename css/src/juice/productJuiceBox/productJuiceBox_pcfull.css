@@ -1,0 +1,78 @@
+@media screen and (min-width:1366px) {
+
+#product{ position: relative;width: 100%; height: auto;
+ box-sizing:border-box; padding-top:10rem; padding-bottom: 5rem;
+ background-color: #F9F7F2;}
+.btn{position: absolute; width: 100%; height: 0; 
+     left: 0; top:50%; margin-top: 40px;}
+.btn>button{width: 50px; height: 50px; background-color: #aaa;}     
+.btn>button:nth-of-type(1){float: left;}     
+.btn>button:nth-of-type(2){float: right;}
+
+.juice_box{width: 90%;  height: auto; overflow-y: hidden; margin: auto; padding-top: 5rem; padding-bottom: 5rem;}
+.banner_wrap{width: 200%; box-sizing: border-box;}
+.banner_wrap>div{width:10.641288vw; height:15.961932vw; float: left; margin-right:3rem;
+          background-repeat: no-repeat; background-position: center bottom; background-size:  auto 100%; 
+          transform: scale(1); 
+          transition:all 300ms linear;}
+
+.banner_wrap>div.active{transform:scale(1.5);}
+/*.banner_wrap>div:nth-of-type(3),
+.banner_wrap>div:nth-of-type(4),
+.banner_wrap>div:nth-of-type(5){transform:scale(1) rotate(0);}*/
+
+.banner_01{background-image: url("../../../../img/juice/juice_i_1.png");}
+.banner_02{background-image: url("../../../../img/juice/juice_i_2.png");}
+.banner_03{background-image: url("../../../../img/juice/juice_i_3.png");}
+.banner_04{background-image: url("../../../../img/juice/juice_i_4.png");}
+.banner_05{background-image: url("../../../../img/juice/juice_i_5.png");}
+
+.juice_text_box{width: 60%; height: auto; /*min-height: 800px;*/margin: auto;
+                margin-top: 5rem;}
+.juice_text_01{width: 100%; height: auto;}
+.juice_text_02{width: 100%; height: auto;}
+.juice_text_03{width: 100%; height: auto;}
+.juice_text_04{width: 100%; height: auto;}
+.juice_text_05{width: 100%; height: auto;}
+
+.name{text-align: left; width: auto; height: auto;}
+.name_02{font-size: 1.5rem; color:#23472f; font-weight: 800;}
+.name>h3{margin-top: 2rem; font-weight: 300; font-size: 1.2rem; color: #555;}
+
+.info{width: 100%; height: auto; text-align: left; margin-top: 3rem;}
+.info_02{font-size: 1.5rem; color:#23472f; font-weight: 800;}
+.info_icon{width: 100%; height: auto;}
+.info_icon>ul{width:100%; height: auto;margin-top: 2rem;}
+.info_icon li{width: 95px; height: 95px; margin-right: 4%; text-align: center; color: #000;
+	float: left;}
+/*.info_icon li:nth-child(4){margin-right: 0;}*/
+
+.info_icon li>div{width:60px; height:60px;margin: auto; margin-bottom: 1rem;
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center bottom;}
+.icon_01{background-image: url(../../../../img/juice/icon_01.png);}
+.icon_02{background-image: url(../../../../img/juice/icon_02.png);}
+.icon_03{background-image: url(../../../../img/juice/icon_03.png);}
+.icon_04{background-image: url(../../../../img/juice/icon_04.png);}
+.icon_05{background-image: url(../../../../img/juice/icon_05.png);}
+.icon_06{background-image: url(../../../../img/juice/icon_06.png);}
+.icon_07{background-image: url(../../../../img/juice/icon_07.png);}
+.icon_08{background-image: url(../../../../img/juice/icon_08.png);}
+.icon_09{background-image: url(../../../../img/juice/icon_09.png);}
+.icon_10{background-image: url(../../../../img/juice/icon_10.png);}
+.icon_11{background-image: url(../../../../img/juice/icon_11.png);}
+.icon_12{background-image: url(../../../../img/juice/icon_12.png);}
+.icon_13{background-image: url(../../../../img/juice/icon_13.png);}
+
+
+
+.info>p{width: 100%; height: auto; font-size: 1rem; font-weight: 300; color:#555;}
+
+
+.button{width: 150px; height: 40px; background-color: #23472f; color: #fff; line-height: 40px; text-align: center;border-radius: 10px; margin-top: 4rem;}
+
+.button>a{display: block; width: 100%; height: 100%; color: inherit;  border-radius: 10px;}
+.button>a:hover{color: #23472f; border: 1px solid #23472f; background-color: #fff; border-radius: 10px;
+                   transition: all 500ms linear;}
+}
