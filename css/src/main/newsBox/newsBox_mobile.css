@@ -2,7 +2,13 @@
 
 
 .newsBox{position: relative; width: 100%; height: 350px; background-image: url(../../../../img/main/news_bg.jpg); background-attachment: fixed;
-          background-position: center; background-size: cover; background-repeat: no-repeat;
+          background-position: center; 
+        -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        -ms-background-size: cover; 
+        -o-background-size: cover; 
+        background-size: cover; 
+      background-repeat: no-repeat;
           box-sizing: border-box; padding-top: 8rem; } 
 
 .newsBox:before{content:" "; display: block;position: absolute;  top: -8vw; left: 0;

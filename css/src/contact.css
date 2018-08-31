@@ -1,0 +1,28 @@
+@import url("./all/headBox/media/headBox_mobile.css");
+@import url("./all/headBox/media/headBox_tab.css");
+@import url("./all/headBox/media/headBox_pc.css");
+@import url("./all/headBox/media/headBox_pcfull.css");
+
+
+@import url("./contact/adconBox/adconBox_mobile.css");
+@import url("./contact/adconBox/adconBox_tab.css");
+@import url("./contact/adconBox/adconBox_pc.css");
+@import url("./contact/adconBox/adconBox_pcfull.css");
+
+
+@import url("./contact/faqBox/faqBox_mobile.css");
+@import url("./contact/faqBox/faqBox_tab.css");
+@import url("./contact/faqBox/faqBox_pc.css");
+@import url("./contact/faqBox/faqBox_pcfull.css");
+
+  
+@import url("./contact/sendBox/sendBox_mobile.css");
+@import url("./contact/sendBox/sendBox_tab.css");
+@import url("./contact/sendBox/sendBox_pc.css");
+@import url("./contact/sendBox/sendBox_pcfull.css");
+
+
+@import url("./all/footBox/media/footBox_mobile.css");
+@import url("./all/footBox/media/footBox_tab.css");
+@import url("./all/footBox/media/footBox_pc.css");
+@import url("./all/footBox/media/footBox_pcfull.css");

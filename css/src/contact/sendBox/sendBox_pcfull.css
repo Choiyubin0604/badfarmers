@@ -1,0 +1,29 @@
+@media screen and (min-width:1366px) {
+
+.sendBox {width: 100%; box-sizing: border-box; padding-top: 10rem; padding-bottom:10rem;  position: relative;
+         width: 100%; height:auto; background-color: #f9f7f2;}  
+.send_text{width: 50%; height: auto; margin: auto;}
+.send_text>h2{margin: auto;  width: auto; height: auto; margin-bottom: 3rem; text-align: center; font-size: 2rem; color:#555;}
+.send_text>h2>span{color: #23472f;  text-align: center; font-size: 2.5rem; font-weight: 800;}
+
+.mailBox_wrap{width: 50%; height: auto;margin:auto;}
+form{width: 100%; height: auto;}
+fieldset{width: 100%; height:550px;/* background-color: #fff;*/}
+label{font-size: 1.5rem; color:#23472f;}
+
+.mailBox{width: 70%; height: 45px; background-color: rgba(34,53,47,0.6);
+         font-weight: 800; font-size: 1.5rem; line-height: 45px; color: #555;}
+#mail{width: 30%; height: 45px; line-height: 45px; font-size: 0.9rem; 
+background-color: transparent; border: 0;}
+#mailhome{width: 40%; height: 45px; line-height: 45px; font-size: 0.9rem; 
+background-color: transparent; border: 0;}
+
+#message{margin-top: 2rem;
+width: 100%; height: 500px; background-color:rgba(34,53,47,0.4);
+border:0; font-size: 1.5rem; box-sizing: border-box; padding: 3rem;}
+
+
+.send_btn{width: 150px; height: 40px; background-color: #23472f; color: #fff; line-height: 40px; text-align: center;border-radius: 10px; display: block; margin: auto; margin-top: 2rem;}
+
+.send_btn:hover{color: #23472f; border: 1px solid #23472f; background-color: #fff; border-radius: 10px; transition: all 500ms linear;}
+} 

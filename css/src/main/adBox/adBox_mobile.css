@@ -1,6 +1,6 @@
 @media screen and (max-width:480px) {
 
-
+#wrap{width: 100%; height: 100%; position: relative;}
 /*html,body{overflow-x: hidden; overflow-y: scroll;}*/
 #adBanner{position:relative; width:100%; height: 100%;
 background-color: #ccc;}
@@ -18,7 +18,12 @@ left:0;  top:50%; margin-top: -40px; z-index: 3000;}
 .banner_wrap>div{position: absolute; top:0; left:0; width: 100%; height: 100%;
         background-repeat: no-repeat;
         background-position: center; 
-        background-size: cover;  background-attachment: fixed;}
+        -webkit-background-size: cover; 
+        -moz-background-size: cover; 
+        -ms-background-size: cover; 
+        -o-background-size: cover; 
+        background-size: cover; 
+         background-attachment: fixed;}
 
 .banner_01{background-image: url('../../../../img/main/banner_01.jpg');}
 .banner_02{background-image: url('../../../../img/main/banner_02.jpg');}

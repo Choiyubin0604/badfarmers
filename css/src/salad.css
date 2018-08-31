@@ -1,0 +1,39 @@
+@import url("./all/headBox/media/headBox_mobile.css");
+@import url("./all/headBox/media/headBox_tab.css");
+@import url("./all/headBox/media/headBox_pc.css");
+@import url("./all/headBox/media/headBox_pcfull.css");
+
+
+@import url("./salad/adSaladBox/adSaladBox_mobile.css");
+@import url("./salad/adSaladBox/adSaladBox_tab.css");
+@import url("./salad/adSaladBox/adSaladBox_pc.css");
+@import url("./salad/adSaladBox/adSaladBox_pcfull.css");
+
+
+@import url("./salad/infoSaladBox/infoSaladBox_mobile.css");
+@import url("./salad/infoSaladBox/infoSaladBox_tab.css");
+@import url("./salad/infoSaladBox/infoSaladBox_pc.css");
+@import url("./salad/infoSaladBox/infoSaladBox_pcfull.css");
+
+  
+@import url("./salad/productSaladBox/productSaladBox_mobile.css");
+@import url("./salad/productSaladBox/productSaladBox_tab.css");
+@import url("./salad/productSaladBox/productSaladBox_pc.css");
+@import url("./salad/productSaladBox/productSaladBox_pcfull.css");
+
+
+@import url("./salad/adInstaBox/adInstaBox_mobile.css");
+@import url("./salad/adInstaBox/adInstaBox_tab.css");
+@import url("./salad/adInstaBox/adInstaBox_pc.css");
+@import url("./salad/adInstaBox/adInstaBox_pcfull.css");
+
+@import url("./salad/infoInstaBox/infoInstaBox_mobile.css");
+@import url("./salad/infoInstaBox/infoInstaBox_tab.css");
+@import url("./salad/infoInstaBox/infoInstaBox_pc.css");
+@import url("./salad/infoInstaBox/infoInstaBox_pcfull.css");
+
+
+@import url("./all/footBox/media/footBox_mobile.css");
+@import url("./all/footBox/media/footBox_tab.css");
+@import url("./all/footBox/media/footBox_pc.css");
+@import url("./all/footBox/media/footBox_pcfull.css");

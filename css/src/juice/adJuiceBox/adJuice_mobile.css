@@ -1,21 +1,19 @@
 @media screen and (max-width:480px) {
 
+#wrap{width: 100%; height: 100%; position: relative;}
+
 #adJuiceBox{
  width: 100%; height: 100%; 
- background-image: url("../../../../img/juice/juice_bg.jpg");
+ background-image: url("../../../../img/juice/bg.jpg");
  background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+ background-repeat: no-repeat;        
+ -webkit-background-size: cover; 
+ -moz-background-size: cover; 
+ -ms-background-size: cover; 
+ -o-background-size: cover; 
+ background-size: cover; 
+ background-attachment: fixed;
  }
-
- .video_wrap{position: relative; width: 100%; height: 100%;
-             overflow: hidden;}
-
- .video_wrap>video{width: auto; height: auto; min-width: 100%; 
-  min-height: 100%; position: absolute; top:50%; left:50%; 
-  transform: translate(-50%,-50%);background-attachment: fixed;}
-
-
   .gnb{text-shadow: 1px 1px 2px #121212;}
 
   .gnb>ul>li.juice{

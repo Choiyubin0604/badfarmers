@@ -17,8 +17,10 @@
   <title>BAD FARMERS</title>
 </head>
 <body>
- <header id="headBox">
-<!--    <h1 class="hidden_wrap" title="BAD FARMERS 사이트에 오신것을 환영합니다."><a href="main.html"><span class="hidden">logo</span></a></h1> -->
+
+<div id="wrap">
+   <header id="headBox">
+   <h1 class="hidden_wrap" title="BAD FARMERS 사이트에 오신것을 환영합니다."><a href="main.html"><span class="hidden">logo</span></a></h1>
   <nav class="gnb">
     <ul class="clearfix">
       <li class="juice">
@@ -47,13 +49,7 @@
  </header>
 
   <section id="adJuiceBox">
-    <h2 class="hidden">moviBox</h2>
-    <div class="video_wrap">
-      <video autoplay="autoplay" muted="muted" poster="../img/juice/juice_bg.jpg" loop="loop">
-        <source src="../img/juice/juice_bg_v.mp4" type="video/mp4" />
-        <p>현~</p>
-      </video>
-    </div>
+  <h2 class="hidden">juice</h2>
   </section>
 
   <article class="info_juiceBox">
@@ -314,10 +310,34 @@
     <div class="process_text">
       
     <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>
+
+          <div class="pr_icon1"></div>
+          <p>신선한 상태의 과일과 채소를 <br> 
+          엄선합니다</p>
+
+      </li>
+      <li>
+
+          <div class="pr_icon2"></div>
+          <p>자연그대로 상태에서 <br> 
+          착즙합니다</p>
+
+      </li>
+      <li>
+
+          <div class="pr_icon3"></div>
+          <p>맛과 영양소 그대로 보존되는 <br> 
+          급속냉동을 합니다</p>
+
+      </li>
+      <li>
+
+          <div class="pr_icon4"></div>
+          <p>냉동이 완료된 즉시 보냉 박스에 담아<br>
+           고객님께 배송을 합니다</p>
+
+      </li>
     </ul>
     
   </div>
@@ -357,6 +377,8 @@
                             bad farmers is registered trademarks of BKTLST</p>
       </div><!--foot-->
     </footer><!--footBox-->
+    
+    </div>
 
   <!-- javascript -->
   <script src="../js/base/jquery-3.3.1.min.js"></script>
@@ -398,7 +420,7 @@
     var banWrapW = divWidth*5;
     bannerWrap.parent('div').css({width:banWrapW, overflowX:'hidden', overflowY:'normal'});
     bannerWrap.css({width:banner.length*divWidth+5, marginLeft:-divWidth, padding:0});
-    console.log(banner.length * divWidth + ':' +divWidth );
+    // console.log(banner.length * divWidth + ':' +divWidth );
 
     // console.log(divWidth);
     // 계산된값 이동
@@ -447,6 +469,29 @@
         juiceTextBox.children('.'+el).siblings('div').hide();
       });
     });
+
+//  var one = $('.process_text li').eq(0);
+//  var two = $('.process_text li').eq(1);
+//  var th = $('.process_text li').eq(2);
+//  var fo = $('.process_text li').eq(3);
+
+// console.log('div' + one.find('.pr_icon1').outerWidth());
+// console.log('p' + one.find('p').outerWidth());
+
+//   one.children('.wr').width(
+//    Math.ceil(one.find('.pr_icon1').outerWidth(true) + one.find('p').outerWidth(true) )
+//   );
+//  two.children('.wr').width(
+//    Math.ceil(two.find('.pr_icon2').outerWidth(true) + two.find('p').outerWidth(true) )
+//   );
+//  th.children('.wr').width(
+//    Math.ceil(th.find('.pr_icon3').outerWidth(true) + th.find('p').outerWidth(true) )
+//   );
+//  fo.children('.wr').width(
+//    Math.ceil(fo.find('.pr_icon4').outerWidth(true) + fo.find('p').outerWidth(true) )
+//   );
+
+
 
   })(jQuery);
 </script>

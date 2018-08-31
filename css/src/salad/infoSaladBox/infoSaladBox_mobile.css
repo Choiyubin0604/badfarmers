@@ -1,0 +1,103 @@
+@media screen and (max-width:298px) {
+
+
+
+#contentBox{
+  box-sizing: border-box; padding-top: 5rem; padding-bottom: 5rem;  position: relative;
+         width: 100%; height:auto; background-image:url('../../../../img/main/4-4_3.png');
+         background-repeat:repeat-y;
+         background-position:center center;
+         background-size:100% auto; 
+}
+
+.modal_box{width: 90%; height: 95vw;
+          position: fixed;
+          top: 50%; margin-top: -45vw; left: 2.5%; z-index: 78000;
+          background-repeat: no-repeat; 
+          background-position: center; 
+          background-size:contain;
+          }
+
+.modal_bg{width: 100%; height: 100%; 
+    background-color:rgba(0,0,0,0.7); position: fixed; top: 0; left: 0; z-index: 77000;}
+
+.list{padding-top: 10%; width: 100%; max-width: 4350px; margin: auto;}
+.list>li{width: 47%; /*min-width: 100px; */height: 250px; margin-right: 3%; margin-bottom: 5%; 
+         float: left; position: relative;
+           }
+.list>li:nth-child(2){margin-right: 0;}
+.list>li:nth-child(4){margin-right: 0;}
+.list>li:nth-child(8){margin-right: 0;}
+.list>li:nth-child(10){margin-right: 0;}
+.list>li:nth-child(12){margin-right: 0;}
+.list>li>a{background-repeat: no-repeat; 
+           background-position: center; 
+           background-size:contain;
+           transition:all 300ms ease;
+           position: relative;}
+
+.list>li>a:hover,
+.list>li>a:focus{ transform:translateY(-1rem); }
+
+/*.list_1,
+.list_2{display: none;}*/
+
+#contentBox>.button{width: 150px; height: 40px; background-color: #23472f; color: #fff; line-height: 40px; text-align: center;border-radius: 10px; margin: auto; margin-top: 4rem;}
+
+#contentBox>.button>a{display: block; width: 100%; height: 100%; color: inherit;  border-radius: 10px;}
+#contentBox>.button>a:hover{color: #23472f; border: 1px solid #23472f; background-color: #fff; border-radius: 10px;
+                   transition: all 500ms linear;}
+
+
+}
+@media screen and (min-width:299px)and (max-width:499px) {
+
+
+#contentBox{
+  box-sizing: border-box; padding-top: 5rem; padding-bottom: 5rem;  position: relative;
+         width: 100%; height:auto; background-image:url('../../../../img/main/4-4_3.png');
+         background-repeat:repeat-y;
+         background-position:center center;
+         background-size:100% auto; 
+}
+
+.modal_box{width: 90%; height: 95vw;
+          position: fixed;
+          top: 50%; margin-top: -45vw; left: 2.5%; z-index: 78000;
+          background-repeat: no-repeat; 
+          background-position: center; 
+          background-size:contain;
+          }
+
+.modal_bg{width: 100%; height: 100%; 
+    background-color:rgba(0,0,0,0.7); position: fixed; top: 0; left: 0; z-index: 77000;}
+
+.list{padding-top: 10%; width: 80%; max-width: 4350px; margin: auto;}
+.list>li{width: 47%; /*min-width: 100px; */height: 250px; margin-right: 3%; margin-bottom: 5%; 
+         float: left; position: relative;
+           }
+.list>li:nth-child(2){margin-right: 0;}
+.list>li:nth-child(4){margin-right: 0;}
+.list>li:nth-child(8){margin-right: 0;}
+.list>li:nth-child(10){margin-right: 0;}
+.list>li:nth-child(12){margin-right: 0;}
+.list>li>a{background-repeat: no-repeat; 
+           background-position: center; 
+           background-size:contain;
+           transition:all 300ms ease;
+           position: relative;}
+
+.list>li>a:hover,
+.list>li>a:focus{ transform:translateY(-1rem); }
+
+/*.list_1,
+.list_2{display: none;}*/
+
+#contentBox>.button{width: 150px; height: 40px; background-color: #23472f; color: #fff; line-height: 40px; text-align: center;border-radius: 10px; margin: auto; margin-top: 4rem;}
+
+#contentBox>.button>a{display: block; width: 100%; height: 100%; color: inherit;  border-radius: 10px;}
+#contentBox>.button>a:hover{color: #23472f; border: 1px solid #23472f; background-color: #fff; border-radius: 10px;
+                   transition: all 500ms linear;}
+
+
+}

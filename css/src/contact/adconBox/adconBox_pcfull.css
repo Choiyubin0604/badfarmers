@@ -1,0 +1,24 @@
+@media screen and (min-width:1366px) {
+  #adconBox{ width: 100%; height: 100%; }
+
+ .adcon{width: 100%; height: 100%;
+       background-image: url("../../../../img/contact/con_bg.jpg");
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;}
+
+ .gnb>ul>li.contact{
+    font-weight: 800;
+    animation:ani 700ms infinite ease alternate;}
+  .juice a{font-weight:  inherit;}
+
+  @keyframes ani {
+  0%{transform: translateY(0);}
+  100%{transform: translateY(-1rem);}
+}
+
+  
+
+
+}

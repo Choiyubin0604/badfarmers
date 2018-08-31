@@ -1,14 +1,25 @@
 @media screen and (min-width:1366px) {
 
 	.processBox{margin:auto; box-sizing: border-box; padding-top: 5rem; padding-bottom: 10rem; 
-		width: 100%; height: auto; min-height: 500px; background-color: #dcdace;}
+		width: 100%; height: auto; background-color: #dcdace;}
 	.process{margin:auto; width: 50%; height: auto;}
-	.process>h2{margin:auto; text-align: center; width: 100%; font-size: 1.5rem; color:#23472f;
-				font-weight: 800;}
+	.process>h2{margin:auto; text-align: center; width: 100%; font-size: 2rem; color:#23472f;
+				font-weight:800;}
 
-	.process_text{width: 100%; height: auto; margin: auto;}
-	.process_text>ul{margin-top: 3rem;  width: 100%; height: auto;}
-	.process_text li{width: 100%; height: 150px; margin-bottom: 2rem;
-		background-color: #fff;}
+	.process_text{width: auto; height: 100%; margin: auto;}
+	.process_text>ul{margin-top: 10rem;  width: auto;; height:auto;}
+	.process_text li{margin:auto; width:540px; height: 130px; margin-bottom: 5rem;}
+/*  .wr{ height: 100%; background-color: #cfc;}*/
+  .process_text li>div{width: 130px; height: 100%;  background-position: center;
+ background-repeat: no-repeat; background-size: cover; float: left;}
+  .pr_icon1{ background-image: url("../../../../img/juice/pr_01.png");}
+  .pr_icon2{ background-image: url("../../../../img/juice/pr_02.png");}
+  .pr_icon3{ background-image: url("../../../../img/juice/pr_03.png");}
+  .pr_icon4{ background-image: url("../../../../img/juice/pr_04.png");}
+
+  .process_text li>p{width: auto; height: 100%; box-sizing: border-box; padding-top: 3rem;
+    float: left; margin-left: 5rem; font-size: 1.3rem; color: #121212;}
 
 }
+
+
