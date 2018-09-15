@@ -3,20 +3,20 @@
 
 
 .infoBox{box-sizing: border-box; padding-top: 6rem; padding-bottom: 6rem; position: relative;
-         width: 100%; height:auto; background-image:url('../../../../img/main/4-4_3.png');
+         width: 100%; height:auto; background-image:url("../../../../img/main/4-4_3.png");
          background-repeat:repeat-y;
          background-position:center center;
          background-size:100% auto;  
         }
 .infoBox:before{content:" "; display: block;position: absolute;  top: -8vw; left: 0;
         width: 100%; height: 8vw; z-index: 5000;
-         background-image: url('../../../../img/main/4-4_2.png');
+         background-image: url("../../../../img/main/4-4_2.png");
          background-repeat: no-repeat;
          background-position: bottom center;
          background-size: 100% auto }
 .infoBox:after{content:" "; display: block; position: absolute; bottom: -8vw; left: 0;
 width: 100%; height: 8vw; z-index: 6000;
-         background-image: url('../../../../img/main/4-4.png');
+         background-image: url("../../../../img/main/4-4.png");
          background-repeat: no-repeat;
          background-position: top center;
          background-size: 100% auto }
@@ -42,17 +42,17 @@ h2>span{color: #23472f;  text-align: center; font-size: 3rem; font-weight: 800;}
 
 .info_wrap div{background-size: contain; background-repeat: no-repeat; background-position: center;
                margin-bottom: 2rem;}
-.info_01{width: 100%; height: 40%;  background-image: url(../../../../img/main/info_1.svg);}
+.info_01{width: 100%; height: 40%;  background-image: url("../../../../img/main/info_1.svg");}
 .info_wrap li.on .info_01,
-.info_01:hover{background-image: url(../../../../img/main/info_1_h.svg);
+.info_01:hover{background-image: url("../../../../img/main/info_1_h.svg");
                 transition: all 500ms linear;}
-.info_02{width: 100%; height: 40%;  background-image: url(../../../../img/main/info_2.svg);}
+.info_02{width: 100%; height: 40%;  background-image: url("../../../../img/main/info_2.svg");}
 .info_wrap li.on .info_02,
-.info_02:hover{background-image: url(../../../../img/main/info_2_h.svg);
+.info_02:hover{background-image: url("../../../../img/main/info_2_h.svg");
                 transition: all 500ms linear;}
-.info_03{width: 100%; height: 40%;  background-image: url(../../../../img/main/info_3.svg);}
+.info_03{width: 100%; height: 40%;  background-image: url("../../../../img/main/info_3.svg");}
 .info_wrap li.on .info_03,
-.info_03:hover{background-image: url(../../../../img/main/info_3_h.svg);
+.info_03:hover{background-image: url("../../../../img/main/info_3_h.svg");
                 transition: all 500ms linear;}
 
 .info_wrap dl{text-align: center; width: 100%; height: auto; margin-top: 5%; }
